@@ -78,8 +78,8 @@ img {
 }
 
 /* .header-menu {
-    
-  } */
+      
+    } */
 
 .nav {
 }
@@ -127,6 +127,38 @@ img {
 }
 
 /* end header */
+/* section trand */
+
+.title.title-top {
+  margin-top: 64px;
+  margin-bottom: 28px;
+}
+.trend {
+  display: flex;
+  max-width: 1200px;
+}
+
+.trend-img {
+  position: relative;
+  
+  background-color: #eff6f1;
+}
+
+.trend-img:nth-child(n + 2) {
+  margin-left: 4px;
+}
+.trend-item {
+  position: absolute;
+  border: 3px solid #b59f5b;
+  bottom: 16px;
+  width: 357px;
+  padding: 20px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+/* end section trend */
+/* section main */
 
 .centre {
   display: flex;
