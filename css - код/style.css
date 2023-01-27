@@ -38,7 +38,7 @@ img {
 }
 
 .header {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: left 1px top -2px;
   background-size: cover;
@@ -127,38 +127,46 @@ img {
 }
 
 /* end header */
-/* section trand */
-
-.title.title-top {
-  margin-top: 64px;
-  margin-bottom: 28px;
-}
+/* trand */
 .trend {
   display: flex;
-  max-width: 1200px;
 }
 
-.trend-img {
-  position: relative;
-  
-  background-color: #eff6f1;
+.garden {
+  background-image: url(../images/trend1.jpg);
+  background-repeat: no-repeat;
 }
 
-.trend-img:nth-child(n + 2) {
-  margin-left: 4px;
+.chees {
+  background-image: url(../images/trend2.jpg);
+  background-repeat: no-repeat;
 }
+
+.travel {
+  background-image: url(../images/trend3.jpg);
+}
+
+.health {
+  background-image: url(../images/trend4.jpg);
+}
+
 .trend-item {
-  position: absolute;
-  border: 3px solid #b59f5b;
-  bottom: 16px;
-  width: 357px;
-  padding: 20px;
-  margin-left: 22px;
-  margin-right: 22px;
+  display: flex;
+  width: calc(25% - 15px);
+  background-size: cover;
+  align-items: end;
 }
 
-/* end section trend */
-/* section main */
+.trend-item-wrapper {
+  margin: 133px 20px 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #b59f5b;
+  padding: 39px 0 37px 33px;
+}
+
+.trend-item:nth-child(n + 2) {
+  margin-left: 5px;
+}
 
 .centre {
   display: flex;
